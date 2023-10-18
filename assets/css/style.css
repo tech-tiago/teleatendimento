@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.label {
+    padding: 10px;
+    font-size: 18px;
+    color:#111;
+    cursor: pointer;
+}
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background: #e6e6e6;
+}
+
+.container{
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.bloco{
+    margin-top: 20px;
+}
+
+.obs{
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    width: 600px;
+    color:#111;
+}
+
+.search,
+.copy-text{
+    position: relative;
+    padding: 10px;
+    width: 600px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+}
+
+.search input.text,
+.copy-text input.text{
+    padding: 10px;
+    width: 600px;
+    font-size: 18px;
+    color: #555;
+    border: none;
+    outline: none;
+}
+
+.search button{
+    padding: 10px;
+    background: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.copy-text button{
+    padding: 10px;
+    background: #5784f5;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.copy-text button:active{
+    background: #809ce2;
+}
+
+
+.copy-text button:before{
+    content: "Copiado";
+    position: absolute; 
+    top: -46px;
+    right: 0px;
+    background: #5c81dc;
+    padding: 8px 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    display: none;
+}
+
+.copy-text button:after{
+    content: "";
+    position: absolute;
+    top: -20px;
+    right: 25px;
+    width: 10px;
+    height: 10px;
+    background: #5c81dc;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.copy-text.active button:before,
+.copy-text.active button:after{
+    display: block;
+}
+
+.recall{
+    display: none;
+}
+
+.obs-box {
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+  }
+  .attention-box {
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffdddd;
+  }
+
