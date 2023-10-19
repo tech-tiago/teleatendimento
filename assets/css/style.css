@@ -19,18 +19,22 @@ body{
 
 .container{
     margin-top: 5%;
-    margin-left: 35%;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
 }
 
 .bloco{
-    margin-top: 20px;
+    margin-top: 2%;
 }
 
 .obs{
     padding: 10px;
     font-size: 18px;
     text-align: justify;
-    width: 600px;
+    width: 100%;
     color:#111;
 }
 
@@ -38,7 +42,7 @@ body{
 .copy-text{
     position: relative;
     padding: 10px;
-    width: 600px;
+    width: 100%;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -48,7 +52,7 @@ body{
 .search input.text,
 .copy-text input.text{
     padding: 10px;
-    width: 600px;
+    width: 100%;
     font-size: 18px;
     color: #555;
     border: none;
@@ -87,7 +91,7 @@ body{
     content: "Copiado";
     position: absolute; 
     top: -46px;
-    right: 0px;
+    left: 0px;
     background: #5c81dc;
     padding: 8px 10px;
     border-radius: 20px;
@@ -99,7 +103,7 @@ body{
     content: "";
     position: absolute;
     top: -20px;
-    right: 25px;
+    left: 25px;
     width: 10px;
     height: 10px;
     background: #5c81dc;
