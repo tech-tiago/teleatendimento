@@ -10,11 +10,11 @@ function includeHTML(file, targetId) {
 }
 
 // Exemplo de uso:
-includeHTML('tipificacoes.html', 'tipificacoes');
-includeHTML('abandono-incapaz.html', 'abandonoIncapaz');
-includeHTML('acidentes-com-vitimas.html', 'acidentesComVitimas');
-includeHTML('acidentes-sem-vitimas.html', 'acidentesSemVitimas');
-includeHTML('afogamento.html', 'afogamento');
-includeHTML('agradecimento.html', 'agradecimento');
+includeHTML('/tipificacoes.html', 'tipificacoes');
+includeHTML('/abandono-incapaz.html', 'abandonoIncapaz');
+includeHTML('/acidentes-com-vitimas.html', 'acidentesComVitimas');
+includeHTML('/acidentes-sem-vitimas.html', 'acidentesSemVitimas');
+includeHTML('/afogamento.html', 'afogamento');
+includeHTML('/agradecimento.html', 'agradecimento');
 
 
