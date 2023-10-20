@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 function includeHTML(file, targetId) {
     fetch('./../../tipificacoes/' + file) // Caminho relativo para a pasta 'tipificações'
         .then(response => response.text())
@@ -17,4 +19,4 @@ includeHTML('acidentes-sem-vitimas.html', 'acidentesSemVitimas');
 includeHTML('afogamento.html', 'afogamento');
 includeHTML('agradecimento.html', 'agradecimento');
 
-
+});
